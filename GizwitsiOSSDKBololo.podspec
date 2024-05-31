@@ -30,12 +30,12 @@ spec.source       = { :git => "https://github.com/gizwits/ios-bololo-v5-sdk-coco
 #在上传之前可以进行本地测试,稍后另起文章写
 # spec.source = {:path=> '.'}
 # 开放的头文件，从工程根目录下开始写起
-spec.source_files  = "GizwitsiOSSDKBololo/GizwitsiOSSDKBololo.framework/Headers/*.{h,m}"
+spec.source_files  = "GizwitsiOSSDKBololo/GizwitsiOSSDK.framework/Headers/*.{h,m}"
 spec.swift_versions= "5.0"
 # 排除文件，没有排除文件可不写
 # spec.exclude_files = "Example"
 
-spec.vendored_frameworks = 'GizwitsiOSSDKBololo/GizwitsiOSSDKBololo.framework'
+spec.vendored_frameworks = 'GizwitsiOSSDKBololo/GizwitsiOSSDK.framework'
 
 # 依赖系统静态库，省略其名称的lib前缀，以及.后缀
 # spec.library   = "z"
