@@ -1513,9 +1513,19 @@ public struct GizRegisterDeviceResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, 
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct GizOtaUpdateInfo : Swift.Codable {
+  public var id: Swift.Int
+  public var firmwareId: Swift.Int
+  public var content: Swift.String
+  public var lang: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct GizCheckUpdateResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swift.Codable {
   public var downloadUrl: Swift.String
   public var softVersion: Swift.String
+  public var coerce: Swift.Bool
+  public var otaFirmwareInfos: [GizwitsiOSSDK.GizOtaUpdateInfo]
   public var currentSoftVersion: Swift.String
   public mutating func setCurrentSoftVersion(currentSoftVersion: Swift.String)
   public init(_ dic: Swift.Dictionary<Swift.String, Any>)
