@@ -1525,6 +1525,7 @@ public struct GizCheckUpdateResultInfo : GizwitsiOSSDK.GizOpenApiResultInfo, Swi
   public var downloadUrl: Swift.String
   public var softVersion: Swift.String
   public var coerce: Swift.Bool
+  public var pushRecordId: Swift.Int
   public var otaFirmwareInfos: [GizwitsiOSSDK.GizOtaUpdateInfo]
   public var currentSoftVersion: Swift.String
   public mutating func setCurrentSoftVersion(currentSoftVersion: Swift.String)
