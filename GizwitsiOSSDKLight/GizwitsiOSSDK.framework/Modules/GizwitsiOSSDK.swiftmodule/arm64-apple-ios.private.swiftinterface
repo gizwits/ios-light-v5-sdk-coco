@@ -136,6 +136,18 @@ public struct GizConfigStruct : Swift.Codable {
   #if compiler(>=5.3) && $AsyncAwait
   public func cancelUpgrade() async -> GizwitsiOSSDK.GizResult<Swift.Int?, GizwitsiOSSDK.GizOTAException?>
   #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func queryTimer() async -> GizwitsiOSSDK.GizResult<[GizwitsiOSSDK.GizDeviceLocalTimerItem]?, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func createTimer(data: GizwitsiOSSDK.GizDeviceLocalTimerParams) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDeviceTimerResult, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func deleteTimer(id: Swift.Int) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDeleteDeviceTimerResult, GizwitsiOSSDK.GizAPIException?>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func editTimer(data: GizwitsiOSSDK.GizDeviceLocalTimerParams) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDeviceTimerResult, GizwitsiOSSDK.GizAPIException?>
+  #endif
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -179,6 +191,7 @@ public enum GizProtocolVersion : Swift.String {
 }
 public protocol GizBaseProfileProvider {
   var mac: Swift.String { get }
+  var sno: Swift.String? { get set }
   var productKey: Swift.String { get }
   var did: Swift.String? { get }
   var protocolVersion: GizwitsiOSSDK.GizProtocolVersion { get }
@@ -201,6 +214,7 @@ public protocol GizBaseProfileProvider {
   public var mac: Swift.String {
     get
   }
+  public var sno: Swift.String?
   @Combine.Published @_projectedValueProperty($isOnline) public var isOnline: Swift.Bool {
     get
     @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
@@ -1336,6 +1350,19 @@ extension Foundation.Data {
   public func hexEncodedString(options: Foundation.Data.HexEncodingOptions = []) -> Swift.String
   public func asciiEncodedString() -> Swift.String
 }
+@_hasMissingDesignatedInitializers public class GizReportDevice {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class WifiConfigLog {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class GizWifiConfigLogReport {
+  public func report()
+  public func initData(productKey: Swift.String, ssid: Swift.String, mode: Swift.Int, timeout: Swift.Int, isBind: Swift.Bool)
+  public func updateDevice(_ device: GizwitsiOSSDK.GizReportDevice)
+  public func appendEvent(withLog log: GizwitsiOSSDK.WifiConfigLog)
+  @objc deinit
+}
 extension GizwitsiOSSDK.GizUserManager {
   #if compiler(>=5.3) && $AsyncAwait
   public func destroyAccount() async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizDestroyResultInfo, GizwitsiOSSDK.GizAPIException?>
@@ -1510,6 +1537,44 @@ public enum GizCtrlException : Swift.Int, Swift.Codable {
   public var rawValue: Swift.Int {
     get
   }
+}
+public enum GizTimerSyncStatus : Swift.Int, Swift.Codable {
+  case synching
+  case success
+  case fail
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct GizDeviceLocalTimerItem : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizDeviceLocalTimerApiItem : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizDeviceLocalTimerParams : Swift.Codable {
+  public init(taskId: Swift.Int, attr: GizwitsiOSSDK.GizJSON, date: Swift.Int, repeat: [Swift.Int])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizDeviceTimerResult : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizDeleteDeviceTimerResult : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GizQueryDeviceTimerResult : GizwitsiOSSDK.GizOpenApiResultInfo {
+  public init(_ dic: Swift.Dictionary<Swift.String, Any>)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol GizSdkEventHandlerDelegate {
   func onDeviceListUpdate(devices: Swift.Array<GizwitsiOSSDK.GizDevice>)
@@ -1768,6 +1833,9 @@ extension GizwitsiOSSDK.GizMQTTException : Swift.RawRepresentable {}
 extension GizwitsiOSSDK.GizCtrlException : Swift.Equatable {}
 extension GizwitsiOSSDK.GizCtrlException : Swift.Hashable {}
 extension GizwitsiOSSDK.GizCtrlException : Swift.RawRepresentable {}
+extension GizwitsiOSSDK.GizTimerSyncStatus : Swift.Equatable {}
+extension GizwitsiOSSDK.GizTimerSyncStatus : Swift.Hashable {}
+extension GizwitsiOSSDK.GizTimerSyncStatus : Swift.RawRepresentable {}
 extension GizwitsiOSSDK.GizConnectException : Swift.Equatable {}
 extension GizwitsiOSSDK.GizConnectException : Swift.Hashable {}
 extension GizwitsiOSSDK.GizConnectException : Swift.RawRepresentable {}
