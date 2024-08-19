@@ -42040,7 +42040,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(taskId:attr:date:repeat:)",
+            "printedName": "init(taskId:attr:date:repeat:open:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -42062,9 +42062,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
               },
               {
                 "kind": "TypeNominal",
@@ -42079,11 +42079,17 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date6repeatACSi_AA0C4JSONVSiSaySiGtcfc",
-            "mangledName": "$s13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date6repeatACSi_AA0C4JSONVSiSaySiGtcfc",
+            "usr": "s:13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date6repeat4openACSi_AA0C4JSONVs6UInt32VSaySiGSbtcfc",
+            "mangledName": "$s13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date6repeat4openACSi_AA0C4JSONVs6UInt32VSaySiGSbtcfc",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -59458,7 +59464,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApiTimer.swift",
       "kind": "Array",
-      "offset": 3286,
+      "offset": 4120,
       "length": 2,
       "value": "[]"
     },

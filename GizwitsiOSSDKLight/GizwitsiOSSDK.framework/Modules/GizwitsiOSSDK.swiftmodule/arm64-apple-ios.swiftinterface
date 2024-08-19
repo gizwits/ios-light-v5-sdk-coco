@@ -1557,7 +1557,7 @@ public struct GizDeviceLocalTimerApiItem : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizDeviceLocalTimerParams : Swift.Codable {
-  public init(taskId: Swift.Int, attr: GizwitsiOSSDK.GizJSON, date: Swift.Int, repeat: [Swift.Int])
+  public init(taskId: Swift.Int, attr: GizwitsiOSSDK.GizJSON, date: Swift.UInt32, repeat: [Swift.Int], open: Swift.Bool)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
