@@ -57875,17 +57875,17 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTHandler.swift",
-      "kind": "Dictionary",
-      "offset": 231,
-      "length": 3,
-      "value": "[]"
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 35,
+      "value": "\"com.gizwits.sdk.mqttSessionsQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/MQTTHandler\/MQTTHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 370,
-      "length": 30,
-      "value": "\"com.gizwits.sdk.updateDevice\""
+      "kind": "Dictionary",
+      "offset": 406,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BindParser.swift",
@@ -59247,22 +59247,29 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 750,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2821,
+      "offset": 2849,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2826,
+      "offset": 2854,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "Array",
-      "offset": 2899,
+      "offset": 2927,
       "length": 2,
       "value": "[]"
     },
@@ -59647,9 +59654,23 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 262,
+      "offset": 264,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 37,
+      "value": "\"com.gizwits.sdk.scannedDevicesQueue\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseHandler.swift",
+      "kind": "Array",
+      "offset": 456,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/DeviceActivator\/ConfigMonitor.swift",
