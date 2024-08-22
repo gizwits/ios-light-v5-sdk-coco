@@ -58113,45 +58113,45 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
-      "kind": "Dictionary",
-      "offset": 1476,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1542,
+      "offset": 1437,
       "length": 36,
       "value": "\"com.gizwits.dataPointCallBackQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 1671,
+      "offset": 1576,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1730,
+      "offset": 1976,
       "length": 29,
       "value": "\"com.gizwits.snCallBackQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 1946,
+      "offset": 2098,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2006,
+      "offset": 2548,
       "length": 30,
       "value": "\"com.gizwits.cmdCallBackQueue\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
+      "kind": "Dictionary",
+      "offset": 2673,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
@@ -59342,6 +59342,13 @@
       "offset": 1539,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 30,
+      "value": "\"com.gizwits.sdk.devicesQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/OTAV5\/CheckDeviceOTAState.swift",
