@@ -36458,6 +36458,67 @@
           },
           {
             "kind": "Var",
+            "name": "_devices",
+            "printedName": "_devices",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GizwitsiOSSDK.GizDevice]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GizDevice",
+                    "printedName": "GizwitsiOSSDK.GizDevice",
+                    "usr": "s:13GizwitsiOSSDK9GizDeviceC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC8_devicesSayAA0C6DeviceCGvp",
+            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC8_devicesSayAA0C6DeviceCGvp",
+            "moduleName": "GizwitsiOSSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[GizwitsiOSSDK.GizDevice]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GizDevice",
+                        "printedName": "GizwitsiOSSDK.GizDevice",
+                        "usr": "s:13GizwitsiOSSDK9GizDeviceC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC8_devicesSayAA0C6DeviceCGvg",
+                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC8_devicesSayAA0C6DeviceCGvg",
+                "moduleName": "GizwitsiOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "devices",
             "printedName": "devices",
             "children": [
@@ -36481,10 +36542,8 @@
             "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC7devicesSayAA0C6DeviceCGvp",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
-              "ProjectedValueProperty",
               "SetterAccess",
-              "AccessControl",
-              "Custom"
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -36511,46 +36570,6 @@
                 "usr": "s:13GizwitsiOSSDK13GizSDKManagerC7devicesSayAA0C6DeviceCGvg",
                 "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC7devicesSayAA0C6DeviceCGvg",
                 "moduleName": "GizwitsiOSSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "$devices",
-            "printedName": "$devices",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Publisher",
-                "printedName": "Combine.Published<Swift.Array<GizwitsiOSSDK.GizDevice>>.Publisher",
-                "usr": "s:7Combine9PublishedV9PublisherV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:13GizwitsiOSSDK13GizSDKManagerC8$devices7Combine9PublishedV9PublisherVySayAA0C6DeviceCG_Gvp",
-            "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC8$devices7Combine9PublishedV9PublisherVySayAA0C6DeviceCG_Gvp",
-            "moduleName": "GizwitsiOSSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Publisher",
-                    "printedName": "Combine.Published<Swift.Array<GizwitsiOSSDK.GizDevice>>.Publisher",
-                    "usr": "s:7Combine9PublishedV9PublisherV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13GizwitsiOSSDK13GizSDKManagerC8$devices7Combine9PublishedV9PublisherVySayAA0C6DeviceCG_Gvg",
-                "mangledName": "$s13GizwitsiOSSDK13GizSDKManagerC8$devices7Combine9PublishedV9PublisherVySayAA0C6DeviceCG_Gvg",
-                "moduleName": "GizwitsiOSSDK",
-                "implicit": true,
                 "accessorKind": "get"
               }
             ]
@@ -57897,168 +57916,168 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 959,
+      "offset": 968,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 999,
+      "offset": 1008,
       "length": 6,
       "value": "\"enum\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1296,
       "length": 8,
       "value": "\"binary\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 1790,
+      "offset": 1749,
       "length": 29,
       "value": "\"parse binary datapoint fail\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 1878,
+      "offset": 1836,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 1981,
+      "offset": 1902,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2048,
+      "offset": 1970,
       "length": 4,
       "value": "\"{}\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2179,
+      "offset": 2103,
       "length": 55,
       "value": "\"数据点转换失败：\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2233,
+      "offset": 2157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2299,
+      "offset": 2218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2426,
+      "offset": 2307,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2455,
+      "offset": 2336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2545,
+      "offset": 2431,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2736,
+      "offset": 2798,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2913,
+      "offset": 2968,
       "length": 68,
       "value": "\"{\"cmd\": \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 2926,
+      "offset": 2981,
       "length": 6,
       "value": "0x0093"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2933,
+      "offset": 2988,
       "length": 1,
       "value": "\", \"sn\": \""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2948,
+      "offset": 3003,
       "length": 1,
       "value": "\", \"data\": \"\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "StringLiteral",
-      "offset": 2977,
+      "offset": 3032,
       "length": 1,
       "value": "\"\"}\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3153,
+      "offset": 3139,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3190,
+      "offset": 3298,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3223,
+      "offset": 3332,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "IntegerLiteral",
-      "offset": 3468,
+      "offset": 3576,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/P0Parser.swift",
       "kind": "BooleanLiteral",
-      "offset": 3560,
+      "offset": 3658,
       "length": 4,
       "value": "true"
     },
@@ -59347,8 +59366,8 @@
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/GizSDKManager.swift",
       "kind": "StringLiteral",
       "offset": 1594,
-      "length": 30,
-      "value": "\"com.gizwits.sdk.devicesQueue\""
+      "length": 34,
+      "value": "\"com.gizwits.sdk.mainDevicesQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/OTAV5\/CheckDeviceOTAState.swift",

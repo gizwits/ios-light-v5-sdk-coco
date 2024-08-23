@@ -1374,10 +1374,10 @@ extension GizwitsiOSSDK.GizUserManager {
 @_hasMissingDesignatedInitializers public class GizSDKManager : Foundation.ObservableObject {
   public var musicalRhythm: GizwitsiOSSDK.MusicalRhythm
   public var isInit: Swift.Bool
-  @Combine.Published @_projectedValueProperty($devices) public var devices: [GizwitsiOSSDK.GizDevice] {
+  public var _devices: [GizwitsiOSSDK.GizDevice] {
     get
   }
-  public var $devices: Combine.Published<[GizwitsiOSSDK.GizDevice]>.Publisher {
+  public var devices: Swift.Array<GizwitsiOSSDK.GizDevice> {
     get
   }
   public static let sharedInstance: GizwitsiOSSDK.GizSDKManager
