@@ -703,7 +703,7 @@ public enum GizAPIException : Swift.Int, Swift.Codable {
 @_hasMissingDesignatedInitializers public class GizLanCapability : GizwitsiOSSDK.GizBaseCapability {
   override public func encode(to encoder: any Swift.Encoder) throws
   #if compiler(>=5.3) && $AsyncAwait
-  public func musicalRhythmSendDp(data: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
+  public func sendDpToUDP(data: GizwitsiOSSDK.GizJSON) async -> GizwitsiOSSDK.GizResult<GizwitsiOSSDK.GizJSON?, GizwitsiOSSDK.GizCtrlException?>
   #endif
   @objc deinit
 }
@@ -1356,14 +1356,14 @@ extension Foundation.Data {
 @_hasMissingDesignatedInitializers public class GizReportDevice {
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class WifiConfigLog {
+@_hasMissingDesignatedInitializers public class GizConfigLog {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class GizWifiConfigLogReport {
   public func report()
   public func initData(productKey: Swift.String, ssid: Swift.String, mode: Swift.Int, timeout: Swift.Int, isBind: Swift.Bool)
   public func updateDevice(_ device: GizwitsiOSSDK.GizReportDevice)
-  public func appendEvent(withLog log: GizwitsiOSSDK.WifiConfigLog)
+  public func appendEvent(withLog log: GizwitsiOSSDK.GizConfigLog)
   @objc deinit
 }
 extension GizwitsiOSSDK.GizUserManager {

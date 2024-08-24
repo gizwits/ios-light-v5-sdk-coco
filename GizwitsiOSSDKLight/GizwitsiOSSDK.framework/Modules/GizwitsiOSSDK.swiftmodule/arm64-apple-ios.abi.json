@@ -17976,8 +17976,8 @@
           },
           {
             "kind": "Function",
-            "name": "musicalRhythmSendDp",
-            "printedName": "musicalRhythmSendDp(data:)",
+            "name": "sendDpToUDP",
+            "printedName": "sendDpToUDP(data:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -18023,8 +18023,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK16GizLanCapabilityC19musicalRhythmSendDp4dataAA0C6ResultCyAA0C4JSONVSgAA0C13CtrlExceptionOSgGAI_tYaF",
-            "mangledName": "$s13GizwitsiOSSDK16GizLanCapabilityC19musicalRhythmSendDp4dataAA0C6ResultCyAA0C4JSONVSgAA0C13CtrlExceptionOSgGAI_tYaF",
+            "usr": "s:13GizwitsiOSSDK16GizLanCapabilityC11sendDpToUDP4dataAA0C6ResultCyAA0C4JSONVSgAA0C13CtrlExceptionOSgGAI_tYaF",
+            "mangledName": "$s13GizwitsiOSSDK16GizLanCapabilityC11sendDpToUDP4dataAA0C6ResultCyAA0C4JSONVSgAA0C13CtrlExceptionOSgGAI_tYaF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -36066,11 +36066,11 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "WifiConfigLog",
-        "printedName": "WifiConfigLog",
+        "name": "GizConfigLog",
+        "printedName": "GizConfigLog",
         "declKind": "Class",
-        "usr": "s:13GizwitsiOSSDK13WifiConfigLogC",
-        "mangledName": "$s13GizwitsiOSSDK13WifiConfigLogC",
+        "usr": "s:13GizwitsiOSSDK12GizConfigLogC",
+        "mangledName": "$s13GizwitsiOSSDK12GizConfigLogC",
         "moduleName": "GizwitsiOSSDK",
         "declAttributes": [
           "AccessControl"
@@ -36190,14 +36190,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "WifiConfigLog",
-                "printedName": "GizwitsiOSSDK.WifiConfigLog",
-                "usr": "s:13GizwitsiOSSDK13WifiConfigLogC"
+                "name": "GizConfigLog",
+                "printedName": "GizwitsiOSSDK.GizConfigLog",
+                "usr": "s:13GizwitsiOSSDK12GizConfigLogC"
               }
             ],
             "declKind": "Func",
-            "usr": "s:13GizwitsiOSSDK22GizWifiConfigLogReportC11appendEvent04withF0yAA0deF0C_tF",
-            "mangledName": "$s13GizwitsiOSSDK22GizWifiConfigLogReportC11appendEvent04withF0yAA0deF0C_tF",
+            "usr": "s:13GizwitsiOSSDK22GizWifiConfigLogReportC11appendEvent04withF0yAA0ceF0C_tF",
+            "mangledName": "$s13GizwitsiOSSDK22GizWifiConfigLogReportC11appendEvent04withF0yAA0ceF0C_tF",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -54829,14 +54829,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 350,
-      "length": 5,
-      "value": "12416"
-    },
-    {
-      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/LanHandler\/LanDeviceHandler.swift",
-      "kind": "IntegerLiteral",
-      "offset": 428,
+      "offset": 356,
       "length": 5,
       "value": "12414"
     },
@@ -59267,56 +59260,56 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 750,
+      "offset": 753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2849,
+      "offset": 2852,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 2854,
+      "offset": 2857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Utils.swift",
       "kind": "Array",
-      "offset": 2927,
+      "offset": 2930,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizConfigLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 2462,
+      "offset": 2460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizConfigLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2510,
+      "offset": 2508,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizConfigLog.swift",
       "kind": "IntegerLiteral",
-      "offset": 2535,
+      "offset": 2533,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Utils\/Logs\/GizConfigLog.swift",
       "kind": "BooleanLiteral",
-      "offset": 2560,
+      "offset": 2558,
       "length": 5,
       "value": "false"
     },
