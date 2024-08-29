@@ -58141,35 +58141,35 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 1576,
+      "offset": 1575,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1976,
+      "offset": 1991,
       "length": 29,
       "value": "\"com.gizwits.snCallBackQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 2098,
+      "offset": 2112,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2580,
       "length": 30,
       "value": "\"com.gizwits.cmdCallBackQueue\""
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Handler\/Base\/BaseDeviceHandler.swift",
       "kind": "Dictionary",
-      "offset": 2673,
+      "offset": 2704,
       "length": 3,
       "value": "[]"
     },
