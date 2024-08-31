@@ -55004,29 +55004,36 @@
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BaseParser.swift",
+      "kind": "StringLiteral",
+      "offset": 13190,
+      "length": 25,
+      "value": "\"com.gizwits.v5.snManage\""
+    },
+    {
+      "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BaseParser.swift",
       "kind": "Array",
-      "offset": 13521,
+      "offset": 13650,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BaseParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 13550,
+      "offset": 13679,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BaseParser.swift",
       "kind": "IntegerLiteral",
-      "offset": 13586,
+      "offset": 13715,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Parse\/BaseParser.swift",
       "kind": "BooleanLiteral",
-      "offset": 13783,
+      "offset": 13912,
       "length": 5,
       "value": "false"
     },
