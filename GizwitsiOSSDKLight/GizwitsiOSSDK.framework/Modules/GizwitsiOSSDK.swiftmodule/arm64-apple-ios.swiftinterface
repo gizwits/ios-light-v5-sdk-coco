@@ -196,6 +196,7 @@ public protocol GizBaseProfileProvider {
   var did: Swift.String? { get }
   var protocolVersion: GizwitsiOSSDK.GizProtocolVersion { get }
   var supportOTA: Swift.Bool { get set }
+  var supportEncryption: Swift.Bool { get set }
   var requiresAuthentication: Swift.Bool { get set }
   var authenticationMethod: GizwitsiOSSDK.AuthenticationMethod { get set }
   var rootDid: Swift.String? { get }
@@ -242,6 +243,7 @@ public protocol GizBaseProfileProvider {
   public var productKey: Swift.String {
     get
   }
+  public var supportEncryption: Swift.Bool
   public var name: Swift.String {
     get
   }
@@ -1535,6 +1537,7 @@ public enum GizCtrlException : Swift.Int, Swift.Codable {
   case GIZ_SDK_DEVICE_CONTROL_FAILED
   case GIZ_SDK_DATAPOINT_PARSE_FAILED
   case GIZ_SDK_DEVICE_NOT_READY
+  case GIZ_SDK_DEVICE_NOT_SUPPORT
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
