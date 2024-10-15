@@ -1558,12 +1558,14 @@ public struct GizDeviceLocalTimerItem : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public func shiftRepeatArray(repeat: [Swift.UInt8], offset: Swift.Int) -> [Swift.UInt8]
+public func convertRepeatToUTC(repeat: [Swift.UInt8], localTime: Swift.String, forward: Swift.Bool) -> [Swift.UInt8]
 public struct GizDeviceLocalTimerApiItem : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct GizDeviceLocalTimerParams : Swift.Codable {
-  public init(taskId: Swift.Int, attr: GizwitsiOSSDK.GizJSON, date: Swift.UInt32, repeat: [Swift.Int], open: Swift.Bool)
+  public init(taskId: Swift.Int, attr: GizwitsiOSSDK.GizJSON, date: Swift.String, time: Swift.String, repeat: [Swift.UInt8], open: Swift.Bool)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

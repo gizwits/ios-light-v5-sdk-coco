@@ -42283,6 +42283,111 @@
         ]
       },
       {
+        "kind": "Function",
+        "name": "shiftRepeatArray",
+        "printedName": "shiftRepeatArray(repeat:offset:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.UInt8]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.UInt8]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13GizwitsiOSSDK16shiftRepeatArray6repeat6offsetSays5UInt8VGAG_SitF",
+        "mangledName": "$s13GizwitsiOSSDK16shiftRepeatArray6repeat6offsetSays5UInt8VGAG_SitF",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "convertRepeatToUTC",
+        "printedName": "convertRepeatToUTC(repeat:localTime:forward:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.UInt8]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.UInt8]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:13GizwitsiOSSDK18convertRepeatToUTC6repeat9localTime7forwardSays5UInt8VGAH_SSSbtF",
+        "mangledName": "$s13GizwitsiOSSDK18convertRepeatToUTC6repeat9localTime7forwardSays5UInt8VGAH_SSSbtF",
+        "moduleName": "GizwitsiOSSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "TypeDecl",
         "name": "GizDeviceLocalTimerApiItem",
         "printedName": "GizDeviceLocalTimerApiItem",
@@ -42371,7 +42476,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(taskId:attr:date:repeat:open:)",
+            "printedName": "init(taskId:attr:date:time:repeat:open:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -42393,20 +42498,26 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UInt32",
-                "printedName": "Swift.UInt32",
-                "usr": "s:s6UInt32V"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Swift.Int]",
+                "printedName": "[Swift.UInt8]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
                   }
                 ],
                 "usr": "s:Sa"
@@ -42419,8 +42530,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date6repeat4openACSi_AA0C4JSONVs6UInt32VSaySiGSbtcfc",
-            "mangledName": "$s13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date6repeat4openACSi_AA0C4JSONVs6UInt32VSaySiGSbtcfc",
+            "usr": "s:13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date4time6repeat4openACSi_AA0C4JSONVS2SSays5UInt8VGSbtcfc",
+            "mangledName": "$s13GizwitsiOSSDK25GizDeviceLocalTimerParamsV6taskId4attr4date4time6repeat4openACSi_AA0C4JSONVS2SSays5UInt8VGSbtcfc",
             "moduleName": "GizwitsiOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -59970,7 +60081,7 @@
     {
       "filePath": "\/Users\/Kylewang\/Documents\/Project\/iossdkv5\/GizwitsiOSSDK\/Services\/GOpenApiTimer.swift",
       "kind": "Array",
-      "offset": 4167,
+      "offset": 7781,
       "length": 2,
       "value": "[]"
     },
