@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
 spec.name         = "GizwitsiOSSDKLight"
-spec.version      = "1.7.28"
+spec.version      = "1.7.29"
 spec.summary      = "GizwitsiOSSDKLight"
 spec.description  = <<-DESC
     机智云设备接入iOS SDK，用于和设备的连接和通讯
